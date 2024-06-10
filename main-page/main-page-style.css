@@ -86,7 +86,7 @@ ul {
 
 .description {
     display: flex;
-    padding: 20px;
+    padding: 40px;
     gap: 30px;
 }
 
@@ -172,5 +172,14 @@ ul {
 
 .description-branch{
     width: 35%;
-    border: 2px solid black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-branch > img {
+    background-size: cover;
+    width: auto;
+    height: 200px;
 }

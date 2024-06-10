@@ -92,17 +92,23 @@ ul {
 
 .description-images {
     width: 40%;
-    height: auto;
+    height: 300px;
     /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
     overflow: hidden;
-    
 }
 
-.description-images>div {
-    /* border: 1px solid brown; */
+.description-images-1:hover,
+.description-images-2:hover,
+.description-images-3:hover,
+.description-images-4:hover,
+.description-images-5:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    overflow: visible;
+    z-index: 1;
 }
 
 .description-content {
@@ -132,12 +138,16 @@ ul {
     width: 50%;
     background-image: url(./images-main-page/cb650r-clutch.webp);
     background-size: auto 100%;
+    background-position: 50%;
+
 }
 
 .description-images-3 {
     width: 50%;
     background-image: url(./images-main-page/cb650r-panel.webp);
     background-size: auto 100%;
+    background-position: 50%;
+
 }
 
 .description-images-4 {
@@ -152,5 +162,15 @@ ul {
     background-image: url(./images-main-page/cb650r-torque-control.webp);
     background-size:cover;
     background-position: 50%;
+}
 
+
+.description-content-text{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.description-branch{
+    width: 35%;
+    border: 2px solid black;
 }

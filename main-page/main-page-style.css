@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: static;
 }
 
 
@@ -58,7 +59,7 @@ ul {
     transition: all, 8s cubic-bezier(.25, .4, .45, 1.4);
 }
 
-.moto-gallery > div:hover {
+.moto-gallery>div:hover {
     flex: 5;
 }
 
@@ -67,21 +68,89 @@ ul {
     height: 320px;
     display: flex;
     justify-content: center;
-    align-items:flex-end;
+    align-items: flex-end;
 }
 
 .text-in-image-content {
-    opacity: 0; 
+    opacity: 0;
     transition: opacity 0.5s ease;
 }
 
-.text-in-image:hover .text-in-image-content{
+.text-in-image:hover .text-in-image-content {
     opacity: 1;
 }
+
 /* end gallery secion */
 
 /* content from motorcycles */
 
 .description {
     display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.description-images {
+    width: 40%;
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.description-images>div {
+    /* border: 1px solid brown; */
+}
+
+.description-content {
+    width: 30%;
+    height: auto;
+}
+
+.description-images-left {
+    width: 40%;
+    display: flex;
+}
+
+.description-images-right {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description-images-1 { 
+    width: 100%;
+    background-image: url(./images-main-page/cb650r-engine.webp);
+    background-size: cover;
+    background-position: 50%;
+} 
+
+.description-images-2 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r-clutch.webp);
+    background-size: auto 100%;
+}
+
+.description-images-3 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r-panel.webp);
+    background-size: auto 100%;
+}
+
+.description-images-4 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r-suspension.webp);
+    background-size: auto 100%;
+    background-position: 50%;
+}
+
+.description-images-5 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r-torque-control.webp);
+    background-size:cover;
+    background-position: 50%;
+
 }

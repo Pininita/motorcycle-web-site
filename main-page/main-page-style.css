@@ -1,0 +1,87 @@
+/* navbar section */
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(20, 10, 29);
+    ;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links li {
+    padding: 0 20px;
+}
+
+/* end navbar section */
+
+/* gallery section */
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.moto-gallery {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.moto-gallery>div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all, 8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.moto-gallery > div:hover {
+    flex: 5;
+}
+
+.text-in-image {
+    width: auto;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.text-in-image-content {
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+}
+
+.text-in-image:hover .text-in-image-content{
+    opacity: 1;
+}
+/* end gallery secion */
+
+/* content from motorcycles */
+
+.description {
+    display: flex;
+}

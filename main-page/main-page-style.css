@@ -1,4 +1,9 @@
 /* navbar section */
+
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: 0;
     margin: 0;
@@ -82,6 +87,22 @@ ul {
 
 /* end gallery secion */
 
+/* about section */
+
+.about-section{
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.about-section > p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.about-section > h2 {
+    
+}
+
 /* content from motorcycles */
 
 .description {
@@ -89,6 +110,8 @@ ul {
     padding: 40px;
     gap: 30px;
 }
+
+/* collage images section */
 
 .description-images {
     width: 40%;
@@ -100,19 +123,12 @@ ul {
     overflow: hidden;
 }
 
-.description-images-1:hover,
-.description-images-2:hover,
-.description-images-3:hover,
-.description-images-4:hover,
-.description-images-5:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s ease;
-    overflow: visible;
-    z-index: 1;
-}
+
+
+/* description section */
 
 .description-content {
-    width: 30%;
+    width: 35%;
     height: auto;
 }
 
@@ -127,51 +143,15 @@ ul {
     flex-wrap: wrap;
 }
 
-.description-images-1 { 
-    width: 100%;
-    background-image: url(./images-main-page/cb650r-engine.webp);
-    background-size: cover;
-    background-position: 50%;
-} 
-
-.description-images-2 {
-    width: 50%;
-    background-image: url(./images-main-page/cb650r-clutch.webp);
-    background-size: auto 100%;
-    background-position: 50%;
-
-}
-
-.description-images-3 {
-    width: 50%;
-    background-image: url(./images-main-page/cb650r-panel.webp);
-    background-size: auto 100%;
-    background-position: 50%;
-
-}
-
-.description-images-4 {
-    width: 50%;
-    background-image: url(./images-main-page/cb650r-suspension.webp);
-    background-size: auto 100%;
-    background-position: 50%;
-}
-
-.description-images-5 {
-    width: 50%;
-    background-image: url(./images-main-page/cb650r-torque-control.webp);
-    background-size:cover;
-    background-position: 50%;
-}
-
-
 .description-content-text{
     font-size: 20px;
     padding-top: 10px;
 }
 
+/* logo section */
+
 .description-branch{
-    width: 35%;
+    width: 25%;
     height: auto;
     display: flex;
     justify-content: center;

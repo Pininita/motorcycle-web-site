@@ -1,0 +1,224 @@
+.cb650r-images-1:hover,
+.cb650r-images-2:hover,
+.cb650r-images-3:hover,
+.cb650r-images-4:hover,
+.cb650r-images-5:hover,
+.husqvarna-images-1:hover,
+.husqvarna-images-2:hover,
+.husqvarna-images-3:hover,
+.husqvarna-images-4:hover,
+.husqvarna-images-5:hover,
+.hypermotard-images-1:hover,
+.hypermotard-images-2:hover,
+.hypermotard-images-3:hover,
+.hypermotard-images-4:hover,
+.hypermotard-images-5:hover,
+.h2r-images-1:hover,
+.h2r-images-2:hover,
+.h2r-images-3:hover,
+.h2r-images-4:hover,
+.h2r-images-5:hover,
+.mt09-images-1:hover,
+.mt09-images-2:hover,
+.mt09-images-3:hover,
+.mt09-images-4:hover,
+.mt09-images-5:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    overflow: visible;
+    z-index: 1;
+}
+
+/* cb650r */
+.cb650r-images-1 { 
+    width: 100%;
+    background-image: url(./images-main-page/cb650r/cb650r-engine.webp);
+    background-size: cover;
+    background-position: 50%;
+} 
+
+.cb650r-images-2 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r/cb650r-clutch.webp);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.cb650r-images-3 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r/cb650r-panel.webp);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.cb650r-images-4 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r/cb650r-suspension.webp);
+    background-size: auto 100%;
+    background-position: 50%;
+}
+
+.cb650r-images-5 {
+    width: 50%;
+    background-image: url(./images-main-page/cb650r/cb650r-torque-control.webp);
+    background-size:cover;
+    background-position: 50%;
+}
+
+/* husqvarna */
+
+.husqvarna-images-1 { 
+    width: 100%;
+    background-image: url(./images-main-page/husqvarna-701/husqvarna-engine.png);
+    background-size: cover;
+    background-position: 50%;
+} 
+
+.husqvarna-images-2 {
+    width: 50%;
+    background-image: url(./images-main-page/husqvarna-701/husqvarna-chassis.png);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.husqvarna-images-3 {
+    width: 50%;
+    background-image: url(./images-main-page/husqvarna-701/husqvarna-clutch.png);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.husqvarna-images-4 {
+    width: 50%;
+    background-image: url(./images-main-page/husqvarna-701/husqvarna-fork.png);
+    background-size: auto 100%;
+    background-position: 50%;
+}
+
+.husqvarna-images-5 {
+    width: 50%;
+    background-image: url(./images-main-page/husqvarna-701/husqvarna-wheel.jpg);
+    background-size:cover;
+    background-position: 50%;
+}
+
+/* hypermotard */
+
+.hypermotard-images-1 { 
+    width: 100%;
+    background-image: url(./images-main-page/ducati/hypermotard-engine.jpg);
+    background-size: cover;
+    background-position: 50%;
+} 
+
+.hypermotard-images-2 {
+    width: 50%;
+    background-image: url(./images-main-page/ducati/hypermotar-high-tech.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.hypermotard-images-3 {
+    width: 50%;
+    background-image: url(./images-main-page/ducati/hypermotar-ergonamic.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.hypermotard-images-4 {
+    width: 50%;
+    background-image: url(./images-main-page/ducati/Hypermotard-monoshock.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+}
+
+.hypermotard-images-5 {
+    width: 50%;
+    background-image: url(./images-main-page/ducati/hypermotard-wheel.jpg);
+    background-size:cover;
+    background-position: 50%;
+}
+
+/* h2r */
+
+.h2r-images-1 { 
+    width: 100%;
+    background-image: url(./images-main-page/kawasaki/h2r-engine.png);
+    background-size: cover;
+    background-position: 50%;
+} 
+
+.h2r-images-2 {
+    width: 50%;
+    background-image: url(./images-main-page/kawasaki/h2r-chassis.png);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.h2r-images-3 {
+    width: 50%;
+    background-image: url(./images-main-page/kawasaki/h2r-panel.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.h2r-images-4 {
+    width: 50%;
+    background-image: url(./images-main-page/kawasaki/h2r-style.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+}
+
+.h2r-images-5 {
+    width: 50%;
+    background-image: url(./images-main-page/kawasaki/h2r-suspension.jpg);
+    background-size:cover;
+    background-position: 50%;
+}
+
+/* yamaha */
+
+.mt09-images-1 { 
+    width: 100%;
+    background-image: url(./images-main-page/yamaha/MT09-engine.jpg);
+    background-size: cover;
+    background-position: 50%;
+} 
+
+.mt09-images-2 {
+    width: 50%;
+    background-image: url(./images-main-page/yamaha/MT09-design.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.mt09-images-3 {
+    width: 50%;
+    background-image: url(./images-main-page/yamaha/MT09-front.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+
+}
+
+.mt09-images-4 {
+    width: 50%;
+    background-image: url(./images-main-page/yamaha/MT09-tank.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+}
+
+.mt09-images-5 {
+    width: 50%;
+    background-image: url(./images-main-page/yamaha/MT09-wheel.jpg);
+    background-size:cover;
+    background-position: 50%;
+}

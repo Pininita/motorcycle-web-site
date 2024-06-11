@@ -1,6 +1,6 @@
 /* navbar section */
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,14 +11,14 @@ html{
 }
 
 .navbar {
-    background: rgb(20, 10, 29);
+    background: rgb(125, 206, 160);
     ;
     width: 100vw;
     height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: static;
+    position: fixed;
 }
 
 
@@ -53,6 +53,7 @@ ul {
     gap: 1rem;
     background-color: bisque;
     padding: 20px;
+    padding-top: 12vh;
 }
 
 .moto-gallery>div {
@@ -89,18 +90,18 @@ ul {
 
 /* about section */
 
-.about-section{
+.about-section {
     text-align: center;
     margin: 20px 40px;
 }
 
-.about-section > p{
+.about-section>p {
     font-size: 20px;
     padding-top: 10px;
 }
 
-.about-section > h2 {
-    
+.about-section>h2 {
+    color: burlywood;
 }
 
 /* content from motorcycles */
@@ -143,14 +144,14 @@ ul {
     flex-wrap: wrap;
 }
 
-.description-content-text{
+.description-content-text {
     font-size: 20px;
     padding-top: 10px;
 }
 
 /* logo section */
 
-.description-branch{
+.description-branch {
     width: 25%;
     height: auto;
     display: flex;
@@ -158,8 +159,104 @@ ul {
     align-items: center;
 }
 
-.description-branch > img {
+.description-branch>img {
     background-size: cover;
     width: auto;
     height: 200px;
+}
+
+/* branches section */
+
+.branches {
+    padding: 40px;
+}
+
+
+.branches-logos {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    justify-content: right;
+    gap: 20px;
+}
+
+.branches-logos-honda:hover,
+.branches-logos-husqvarna:hover,
+.branches-logos-ducati:hover,
+.branches-logos-kawasaki:hover,
+.branches-logos-yamaha:hover,
+.branches-logos-mototechhub:hover{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.branches-logos-honda {
+    width: 30%;
+    height: auto;
+    background-image: url(./images-main-page/cb650r/logo-honda.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.branches-logos-husqvarna {
+    width: 30%;
+    height: 200px;
+    background-image: url(./images-main-page/husqvarna-701/husqvarna-logo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.branches-logos-ducati {
+    width: 30%;
+    height: 200px;
+    background-image: url(./images-main-page/ducati/ducati-logo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.branches-logos-kawasaki {
+    width: 30%;
+    height: 200px;
+    background-image: url(./images-main-page/kawasaki/kawasaki-logo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.branches-logos-yamaha {
+    width: 30%;
+    height: 200px;
+    background-image: url(./images-main-page/yamaha/yamaha-logo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.branches-logos-mototechhub {
+    width: 33%;
+    height: 200px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.branches-logos-mototechhub-img {
+    background-image: url(./images-main-page/pikaso_texttoimage_i-need-a-logo-wit-this-name-Moto-Tech-Hub.jpeg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }

@@ -1,7 +1,8 @@
 /* navbar section */
 
 body {
-    background: #272727;
+    background: #171717;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 }
 
 hr{
-    border:1px solid #FFE400;
+    border:1px solid #ffe60094;
     border-radius: 10px;
 }
 
@@ -51,9 +52,18 @@ ul {
 .navbar-style-branches,
 .navbar-style-gallery,
 .navbar-style-contacts {
-    color: #ff652f;
+    color: #ffea2f9a;
     text-decoration: none;
+    
 }
+
+.navbar-style-about:hover,
+.navbar-style-branches:hover,
+.navbar-style-gallery:hover,
+.navbar-style-contacts:hover{
+ color: #ff652f; 
+}
+
 
 /* end navbar section */
 
@@ -211,7 +221,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0px 40px;
-    justify-content: right;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -234,6 +244,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 30px;
+    box-shadow: -2px 2px 30px rgba(255, 0, 0, 0.568) ;
 }
 
 .branches-logos-husqvarna {
@@ -244,6 +255,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 30px;
+    box-shadow: -2px 2px 30px rgba(0, 0, 255, 0.418) ;
 }
 
 .branches-logos-ducati {
@@ -254,6 +266,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 30px;
+    box-shadow: -2px 2px 10px  rgba(255, 255, 255, 0.315) ;
 }
 
 .branches-logos-kawasaki {
@@ -264,6 +277,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 30px;
+    box-shadow: -2px 2px 20px  rgba(0, 128, 0, 0.678) ;
 }
 
 .branches-logos-yamaha {
@@ -274,6 +288,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 30px;
+    box-shadow: -2px 2px 20px  black ;
 }
 
 .branches-logos-mototechhub {
@@ -283,6 +298,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 30px;
+    box-shadow: -2px 2px 20px  #ff662f6b ;
     display: flex;
     justify-content: center;
 }
@@ -295,4 +311,28 @@ ul {
     border-radius: 50%;
 }
 
-/*  */
+/* color table section */
+
+.color-table {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.color-table-container{
+    display: flex;
+}
+
+.color-table-container-colorshow{
+    width: 20%;
+}
+
+.color-table-container-select{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select--color{
+    width: 33%;
+}

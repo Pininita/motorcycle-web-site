@@ -321,18 +321,36 @@ ul {
 
 .color-table-container{
     display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .color-table-container-colorshow{
     width: 20%;
+    height: max-content;
+}
+
+.colorshow {
+    height: 210px;
+    width: 150px;
 }
 
 .color-table-container-select{
     width: 30%;
     display: flex;
     flex-wrap: wrap;
+    /* gap: 5px; */
+    justify-content: space-between;
 }
 
 .select--color{
-    width: 33%;
+    width: 32%;
+    height: 50px;
+}
+
+.color-table-container-reference {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-self: center;
 }

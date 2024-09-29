@@ -28,6 +28,7 @@ hr{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    margin-bottom: 15px;
 }
 
 
@@ -108,6 +109,11 @@ ul {
 .text-in-image-content {
     opacity: 0;
     transition: opacity 0.5s ease;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 22px;
+    text-decoration: none;
+    color: #a0cf31;
 }
 
 .text-in-image:hover .text-in-image-content {
@@ -333,6 +339,11 @@ ul {
 .colorshow {
     height: 210px;
     width: 150px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: white;
+    outline: none;
 }
 
 .color-table-container-select{
@@ -343,9 +354,47 @@ ul {
     justify-content: space-between;
 }
 
+/* this section show the color that were use on this page */
+
 .select--color{
     width: 32%;
     height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.select--color:hover{
+    box-shadow: 2px 3px 3px 0px;
+    transition: 0.2s ease;
+}
+
+.color-1{
+    background-color: #171717;
+}
+
+.color-2{
+    background-color: #202020;
+}
+
+.color-3{
+    background-color: #14A76C;
+}
+
+.color-4{
+    background-color: #303030;
+}
+
+.color-5{
+    background-color: #747474;
+}
+
+.color-6{
+    background-color: #a0cf31;
+}
+
+.color-7{
+    background-color: #ff652f;
 }
 
 .color-table-container-reference {
@@ -353,4 +402,17 @@ ul {
     flex-direction: column;
     gap: 17px;
     align-self: center;
+}
+
+.color-value{
+    min-height: 20px;
+    max-width: 160px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #202020;
+}
+
+.reference-color-text{
+    font-weight: 900;
+    font-size: 20px;
 }

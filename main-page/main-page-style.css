@@ -416,3 +416,101 @@ ul {
     font-weight: 900;
     font-size: 20px;
 }
+
+/* footer */
+
+.footer{
+    background-color: #303030;
+    padding: 0px 60px;
+}
+
+.footer-description{
+    color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-page {
+    font-weight: 600;
+    color: #747474;
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px;
+}
+
+.contacts-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0px 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #747474;
+    font-weight: 700;
+}
+
+.contacts-social-net{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-createdBy{
+ text-align: center;
+ font-size: 20px;
+ color: #747474;
+}
+
+.info-phone{
+    width: 50px; 
+    height: 50px; 
+    background-image: url('./footer-img/icons8-mobile-50.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.info-email{
+    width: 50px; 
+    height: 50px; 
+    background-image: url('./footer-img/icons8-nuevo-post-50.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.net-instagram{
+    width: 50px; 
+    height: 50px; 
+    background-image: url('./footer-img/icons8-instagram-50.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.net-linkedin{
+    width: 50px; 
+    height: 50px; 
+    background-image: url('./footer-img/icons8-linkedin-50.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.go-up{
+    width: 50px; 
+    height: 50px; 
+    background-image: url('./footer-img/icons8-flecha-arriba-50.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
